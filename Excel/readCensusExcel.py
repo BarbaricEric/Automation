@@ -23,3 +23,10 @@ countyData[state].setdefault(county, {'tracts': 0, 'pop': 0})
 countyData[state][county]['tracts'] += 1
 # Increase the county pop by the pop in this census tract.
 countyData[state][county]['pop'] += int(pop)
+
+# Open a new text file and write the contents of countyData to it.
+print('Writing results...')
+resultFile = open('census2010.py', 'w')
+resultFile.write('allData = ' + pprint.pformat(countyData))
+resultFile.close()
+print('Done.')
