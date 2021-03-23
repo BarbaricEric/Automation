@@ -1,6 +1,6 @@
 # Selenium, Google Chrome Web Driver, and Python installation required
 # Facebook login automation
-# Selenium documentation notes this method is bad practice and the company/oraganization API should be used instead
+# Selenium documentation notes this method is bad practice 
 
 #using webdriver from selenium module
 from selenium import webdriver
@@ -22,3 +22,6 @@ password = fb.find_element_by_xpath('//*[@id="pass"]')
 password.send_keys('PASSWORD FOR FACEBOOK ENTER HERE')
 login = fb.find_element_by_xpath('//*[@id="u_0_b"]')
 login.click()
+
+#https://www.selenium.dev/documentation/en/
+#https://selenium-python.readthedocs.io/getting-started.html#simple-usage
