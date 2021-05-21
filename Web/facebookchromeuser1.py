@@ -25,3 +25,4 @@ login.click()
 
 #https://www.selenium.dev/documentation/en/
 #https://selenium-python.readthedocs.io/getting-started.html#simple-usage
+#https://www.selenium.dev/selenium/docs/api/javascript/index.html
